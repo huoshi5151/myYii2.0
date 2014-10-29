@@ -8,6 +8,7 @@ use yii\web\Controller;
 use yii\filters\VerbFilter;
 use app\models\LoginForm;
 use app\models\ContactForm;
+use app\models\EntryForm;
 
 class SiteController extends Controller
 {
@@ -101,7 +102,7 @@ class SiteController extends Controller
     public function actionEntry(){
         $model=new EntryForm;
 
-        if($model->load(Yii:$app->request->post()) && $model->validata()){
+        if($model->load(Yii::$app->request->post()) && $model->validate()){
             //验证$model收到的数据
             //做些有意义的事儿。。
             return $this->render('entry-confirm',['model'=>$model]);
