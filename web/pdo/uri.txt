@@ -1,0 +1,1 @@
+mysql:dbname=blog;host=localhost
