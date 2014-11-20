@@ -8,8 +8,8 @@ $this->title = 'My Yii Application';
         <h1>Congratulations!</h1>
 
         <p class="lead">
-<!--           The controller id is:--><?php //print_r($this->context);  ?>
-<!--            <hr />-->
+           The controller id is:<?php print_r($this->context);  ?>
+            <hr />
             You have successfully created your Yii-powered application.</p>
 
         <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p>

@@ -3,6 +3,7 @@ use yii\helpers\Html;
 
 /* @var $this yii\web\View */
 $this->title = 'About';
+//面包屑导航
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="site-about">
