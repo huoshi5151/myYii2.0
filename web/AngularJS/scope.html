@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+    <title>clock</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular.js"></script>
+</head>
+<body>
+<div ng-app="myApp">
+    <h1>Hello{{ name }}</h1>
+</div>
+<script>
+    /**
+     * it dosn't work
+    * */
+    angular.module('myApp',[]).run(function($rootScope){
+       $rootScope.name="World";
+    });
+</script>
+</body>
+</html>
