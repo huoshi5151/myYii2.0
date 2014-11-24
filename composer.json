@@ -17,7 +17,12 @@
         "php": ">=5.4.0",
         "yiisoft/yii2": "*",
         "yiisoft/yii2-bootstrap": "*",
+<<<<<<< HEAD
         "yiisoft/yii2-swiftmailer": "*"
+=======
+        "yiisoft/yii2-swiftmailer": "*",
+        "yiisoft/yii2-imagine": "*"
+>>>>>>> origin/master
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",
@@ -48,7 +53,16 @@
         },
         "asset-installer-paths": {
             "npm-asset-library": "vendor/npm",
+<<<<<<< HEAD
             "bower-asset-library": "vendor/bower"
         }
     }
 }
+=======
+            "bower-asset-library": "vendor/bower",
+            "npm-searchable":false,
+            "bower-searchable":false
+        }
+    }
+}
+>>>>>>> origin/master

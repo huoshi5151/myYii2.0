@@ -8,6 +8,10 @@ use yii\web\Controller;
 use yii\filters\VerbFilter;
 use app\models\LoginForm;
 use app\models\ContactForm;
+<<<<<<< HEAD
+=======
+use app\models\EntryForm;
+>>>>>>> origin/master
 
 class SiteController extends Controller
 {
@@ -93,4 +97,24 @@ class SiteController extends Controller
     {
         return $this->render('about');
     }
+<<<<<<< HEAD
+=======
+//test
+    public function actionSay($message='hello'){
+        return $this->render('say',['message'=>$message]);
+    }
+
+    public function actionEntry(){
+        $model=new EntryForm;
+
+        if($model->load(Yii::$app->request->post()) && $model->validate()){
+            //验证$model收到的数据
+            //做些有意义的事儿。。
+            return $this->render('entry-confirm',['model'=>$model]);
+        }else{
+            //无论是初始化显示还是数据验证错误
+            return $this->render('entry',['model'=>$model]);
+        }
+    }
+>>>>>>> origin/master
 }

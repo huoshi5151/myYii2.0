@@ -4,7 +4,11 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
+<<<<<<< HEAD
     "hash": "865ce4d9e6c2c445e707b268f070dd3f",
+=======
+    "hash": "1be96df183edebf9df111663d7191f1c",
+>>>>>>> origin/master
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -102,6 +106,7 @@
         },
         {
             "name": "bower-asset/jquery.inputmask",
+<<<<<<< HEAD
             "version": "3.1.33",
             "source": {
                 "type": "git",
@@ -112,6 +117,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/RobinHerbots/jquery.inputmask/zipball/0c6ce85c1bc12e81ecb0df62fbc62db116b7b53d",
                 "reference": "0c6ce85c1bc12e81ecb0df62fbc62db116b7b53d",
+=======
+            "version": "3.1.34",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/RobinHerbots/jquery.inputmask.git",
+                "reference": "f48d10463039a23469e65cc4b5c0b4409e8fb596"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/RobinHerbots/jquery.inputmask/zipball/f48d10463039a23469e65cc4b5c0b4409e8fb596",
+                "reference": "f48d10463039a23469e65cc4b5c0b4409e8fb596",
+>>>>>>> origin/master
                 "shasum": ""
             },
             "require": {
@@ -154,6 +171,7 @@
         },
         {
             "name": "bower-asset/punycode",
+<<<<<<< HEAD
             "version": "v1.3.1",
             "source": {
                 "type": "git",
@@ -164,6 +182,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/bestiejs/punycode.js/zipball/de452f89aea23f126f7b219f576abda1c0823825",
                 "reference": "de452f89aea23f126f7b219f576abda1c0823825",
+=======
+            "version": "v1.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bestiejs/punycode.js.git",
+                "reference": "38c8d3131a82567bfef18da09f7f4db68c84f8a3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bestiejs/punycode.js/zipball/38c8d3131a82567bfef18da09f7f4db68c84f8a3",
+                "reference": "38c8d3131a82567bfef18da09f7f4db68c84f8a3",
+>>>>>>> origin/master
                 "shasum": ""
             },
             "type": "bower-asset-library",
@@ -208,6 +238,7 @@
         },
         {
             "name": "cebe/markdown",
+<<<<<<< HEAD
             "version": "1.0.0",
             "source": {
                 "type": "git",
@@ -218,6 +249,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/cebe/markdown/zipball/4f6b35cc5cc1025ed946839fd24e05ace617867a",
                 "reference": "4f6b35cc5cc1025ed946839fd24e05ace617867a",
+=======
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cebe/markdown.git",
+                "reference": "9d6c36d6623497523ed421a31d940bc1d7435578"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cebe/markdown/zipball/9d6c36d6623497523ed421a31d940bc1d7435578",
+                "reference": "9d6c36d6623497523ed421a31d940bc1d7435578",
+>>>>>>> origin/master
                 "shasum": ""
             },
             "require": {
@@ -264,7 +307,11 @@
                 "markdown",
                 "markdown-extra"
             ],
+<<<<<<< HEAD
             "time": "2014-10-10 20:54:29"
+=======
+            "time": "2014-10-25 16:16:49"
+>>>>>>> origin/master
         },
         {
             "name": "ezyang/htmlpurifier",
@@ -312,6 +359,61 @@
             "time": "2013-11-30 08:25:19"
         },
         {
+<<<<<<< HEAD
+=======
+            "name": "imagine/imagine",
+            "version": "v0.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/avalanche123/Imagine.git",
+                "reference": "f64ec666baaa800edcbf237db41121a569230709"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/avalanche123/Imagine/zipball/f64ec666baaa800edcbf237db41121a569230709",
+                "reference": "f64ec666baaa800edcbf237db41121a569230709",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "sami/sami": "dev-master"
+            },
+            "suggest": {
+                "ext-gd": "to use the GD implementation",
+                "ext-gmagick": "to use the Gmagick implementation",
+                "ext-imagick": "to use the Imagick implementation"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Imagine": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bulat Shakirzyanov",
+                    "email": "mallluhuct@gmail.com",
+                    "homepage": "http://avalanche123.com"
+                }
+            ],
+            "description": "Image processing for PHP 5.3",
+            "homepage": "http://imagine.readthedocs.org/",
+            "keywords": [
+                "drawing",
+                "graphics",
+                "image manipulation",
+                "image processing"
+            ],
+            "time": "2013-07-10 17:25:36"
+        },
+        {
+>>>>>>> origin/master
             "name": "swiftmailer/swiftmailer",
             "version": "v5.3.0",
             "source": {
@@ -545,6 +647,57 @@
             "time": "2014-10-12 17:09:06"
         },
         {
+<<<<<<< HEAD
+=======
+            "name": "yiisoft/yii2-imagine",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/yii2-imagine.git",
+                "reference": "964ad31628520cfb21521517cbaa52a53108b0fb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/yii2-imagine/zipball/964ad31628520cfb21521517cbaa52a53108b0fb",
+                "reference": "964ad31628520cfb21521517cbaa52a53108b0fb",
+                "shasum": ""
+            },
+            "require": {
+                "imagine/imagine": "0.5.*",
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "yii\\imagine\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Antonio Ramirez",
+                    "email": "amigo.cobos@gmail.com"
+                }
+            ],
+            "description": "The Imagine integration for the Yii framework",
+            "keywords": [
+                "helper",
+                "image",
+                "imagine",
+                "yii2"
+            ],
+            "time": "2014-10-12 17:09:06"
+        },
+        {
+>>>>>>> origin/master
             "name": "yiisoft/yii2-swiftmailer",
             "version": "2.0.0",
             "source": {

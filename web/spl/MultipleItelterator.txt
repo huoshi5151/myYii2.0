@@ -1,0 +1,18 @@
+Array
+(
+    [ID] => 01
+    [NAME] => 张三
+    [AGE] => 22
+)
+Array
+(
+    [ID] => 02
+    [NAME] => 李四
+    [AGE] => 23
+)
+Array
+(
+    [ID] => 03
+    [NAME] => 王五
+    [AGE] => 24
+)

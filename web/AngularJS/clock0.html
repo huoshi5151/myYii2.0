@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+    <title>clock</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular.js"></script>
+</head>
+<body>
+<div ng-controller="myController">
+<h1>{{clock}}</h1>
+</div>
+<script>
+    /**
+     * 这里将对象本身来进行引用绑定，并非Angular中的最佳实践。
+    * */
+    function myController($scope) {
+        $scope.clock = new Date();
+        var updateClock = function() {
+            $scope.clock = new Date();
+        };
+        setInterval(function() {
+            $scope.$apply(updateClock);
+        }, 1000);
+        updateClock();
+    };
+</script>
+</body>
+</html>
