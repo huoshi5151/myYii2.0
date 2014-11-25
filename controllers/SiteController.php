@@ -8,10 +8,7 @@ use yii\web\Controller;
 use yii\filters\VerbFilter;
 use app\models\LoginForm;
 use app\models\ContactForm;
-<<<<<<< HEAD
-=======
 use app\models\EntryForm;
->>>>>>> origin/master
 
 class SiteController extends Controller
 {
@@ -97,8 +94,6 @@ class SiteController extends Controller
     {
         return $this->render('about');
     }
-<<<<<<< HEAD
-=======
 //test
     public function actionSay($message='hello'){
         return $this->render('say',['message'=>$message]);
@@ -116,5 +111,4 @@ class SiteController extends Controller
             return $this->render('entry',['model'=>$model]);
         }
     }
->>>>>>> origin/master
 }

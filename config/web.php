@@ -5,13 +5,6 @@ $params = require(__DIR__ . '/params.php');
 $config = [
     'id' => 'basic',
     'basePath' => dirname(__DIR__),
-<<<<<<< HEAD
-    'bootstrap' => ['log'],
-    'components' => [
-        'request' => [
-            // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
-            'cookieValidationKey' => 'jf9yy2yhidasy88y28&&%%f2gbruihfu',
-=======
     'bootstrap' => [
         // 将 log 组件 ID 加入引导让它始终载入
         'log',
@@ -20,7 +13,6 @@ $config = [
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => '-OUuaXVda7x6tOVjsQxwaCF3D1OiQAiA',
->>>>>>> origin/master
         ],
         'cache' => [
             'class' => 'yii\caching\FileCache',
@@ -39,10 +31,7 @@ $config = [
             // for the mailer to send real emails.
             'useFileTransport' => true,
         ],
-<<<<<<< HEAD
-=======
         // "log" 组件的配置
->>>>>>> origin/master
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
             'targets' => [
